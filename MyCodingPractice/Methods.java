@@ -20,9 +20,9 @@ public class Methods {
         
         if (determinant < 0) {
             System.out.println("There are no real roots");
-        } if (determinant == 0) {
+        } else if (determinant == 0) {
             System.out.println("There are two real repeated roots");
-        } if (determinant > 0) {
+        } else if (determinant > 0) {
             System.out.println("There are two real unique roots");
         }
     }
