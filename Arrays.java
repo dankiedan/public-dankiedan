@@ -5,6 +5,6 @@ public class Arrays {
         int integerArray[] = {1, 2, 3, 4, 5};
 
         System.out.println(stringArray[1]); // This will output the 1st index, DEF
-        System.out.println(integerArray[0]); // This will output the 
+        System.out.println(integerArray[0]); // This will output the 0th index, 1
     }
 }
