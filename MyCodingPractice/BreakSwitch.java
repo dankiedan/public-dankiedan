@@ -38,7 +38,7 @@ public class BreakSwitch {
             case 7:
                 System.out.println("Sunday");
                 break;
-            default:
+            default: // If the cases are not met, then run default.
                 System.out.println("Invalid day");
         }
     }
