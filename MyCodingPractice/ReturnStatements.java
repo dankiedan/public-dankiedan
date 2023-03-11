@@ -10,7 +10,7 @@ public class ReturnStatements {
         System.out.println("The sum of the two numbers is: " + z);
 
         // Let's learn how to shout
-        shouting("I really need to shout!");
+        System.out.println(shouting("I really need to shout!"));
 
     }
 
