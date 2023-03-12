@@ -9,6 +9,8 @@ public class ArrayList {
     
     System.out.println(fruits[1]); // This will print out fruits[1]
 
- 
+    // Added a new line to show Hanyi
+
+
     }
 }
