@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayList {
+public class ArrayLists {
 
 	public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class ArrayList {
 		fruits[3] = "Watermelon";
 		System.out.println(fruits); // This breaks the array print
 
-		ArrayList fruitList = new ArrayList();
+		ArrayList<String> fruitList = new ArrayList<String>();
 		fruitList.add("Mango");
 		fruitList.add("Apple");
 		fruitList.add("Strawberry");
@@ -23,5 +23,4 @@ public class ArrayList {
 
 		System.out.println(fruitList); 
 	}
-
 }
