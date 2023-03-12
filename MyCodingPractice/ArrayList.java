@@ -8,6 +8,6 @@ public class ArrayList {
     fruits[2] = "Cherry";
     
     System.out.println(fruits[1]); // This will print out fruits[1]
-    // Check
+    // hanyi is a nonce
     }
 }
