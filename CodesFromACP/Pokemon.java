@@ -4,7 +4,7 @@ public class Pokemon {
     private int level;
   
     public Pokemon() {
-      this.name = "";
+      this.name = "Default";
       this.level = 1;
     }
   

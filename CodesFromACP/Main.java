@@ -4,6 +4,12 @@ class Main {
     Pokemon pika = new Pokemon("Pikachu", 10);
     Pokemon eve = new Pokemon("Eevee", 3);
 
+    Pokemon dank = new Pokemon("Dankie", 19);
+    dank.printDetails();
+
+    Pokemon dank2 = new Pokemon();
+    dank2.printDetails(); // This will run through the default Pokemon() method.
+
     pika.printDetails();
     eve.printDetails();
 
@@ -18,7 +24,7 @@ class Main {
 
     System.out.println("--- After Pikachu attacks... Taking a break... ");
 
-    for (int i = 0; i < 15; i++) {
+    for (int i = 0; i < 3; i++) {
       eve.attack(); 
     }
 	
