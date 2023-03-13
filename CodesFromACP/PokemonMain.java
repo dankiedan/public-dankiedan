@@ -1,4 +1,4 @@
-class Main {
+class PokemonMain {
   public static void main(String[] args) {
 
     Pokemon pika = new Pokemon("Pikachu", 10);
