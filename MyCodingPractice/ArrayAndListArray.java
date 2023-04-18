@@ -16,9 +16,9 @@ public class ArrayAndListArray {
         System.out.println("-----------------------------------"); // Print divider
 
         ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
-        listOfNumbers.add = (256);
-        listOfNumbers.add = (512);
-        
+        listOfNumbers.add(256);
+        listOfNumbers.add(512);
+        // listOfNumbers.remove(0);
         System.out.println(listOfNumbers);
 
     }
